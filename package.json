@@ -1,0 +1,37 @@
+{
+  "name": "@fujia/react-native",
+  "version": "1.0.0",
+  "description": "summarize the knowledge points related to react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fujia-blogs/react-native.git"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "email": "fujia.site@outlook.com",
+    "name": "fujia",
+    "url": "https://fujia.site"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fujia-blogs/react-native/issues"
+  },
+  "homepage": "https://github.com/fujia-blogs/react-native#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^16.2.1",
+    "commitlint": "^16.2.3",
+    "husky": "^7.0.0"
+  }
+}
